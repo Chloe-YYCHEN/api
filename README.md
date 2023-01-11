@@ -26,7 +26,7 @@ application.properties
 ```properties
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=root
-spring.datasource.password=
+spring.datasource.password=123456
 #配置h2数据库
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.jpa.show-sql=true
