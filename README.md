@@ -33,18 +33,19 @@ spring.jpa.show-sql=true
 #dialect：设置数据库引擎为H2Dialect
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2
-
+#配置h2数据库路径
 logging.level.com.example.api=info
-
+#slf4j的logger输出等级
 spring.main.banner-mode=off
-
+#关闭 Banner
 spring.jackson.serialization.fail-on-empty-beans=false
-
+#是否开启jackson的序列化.（一般使用jackjson将对象json化）
 info.app.name=Spring Boot Master Class
 info.app.description=Master Spring Boot
 info.app.version=1.0.0
 info.company.name=Google
 management.endpoint.health.show-details=always
 management.endpoints.web.exposure.include=health,info,prometheus
+#actuator端点启用和暴露，通过HTTP公开所有的端点，包含health,info,prometheus端点
 ```
 
