@@ -1,4 +1,4 @@
-## Hi，这是一个SpringBoot + H2 的练习项目
+## Hi，这是一个SpringBoot + H2 + JPA的项目
 <p>一、各个文件包的作用</p>
 
 ### 1.com.example.api
