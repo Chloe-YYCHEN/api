@@ -1,6 +1,6 @@
 package com.example.api.configuration;
 
-import com.example.api.info.InfoApp;
+import com.example.api.entity.InfoApp;
 import com.example.api.repository.CustomerFakeRepository;
 import com.example.api.repository.CustomerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
